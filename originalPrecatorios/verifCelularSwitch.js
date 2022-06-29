@@ -12,6 +12,7 @@ switch (qt_num){
         }
         break;
     case 13:
+        
         var regex = new RegExp('^\\([0-9]{2}\\)((3[0-9]{3}[0-9]{4})|(9[0-9]{4}[0-9]{4}))$') ;//Validação de numeros com: parenteses / DDD 
         var regex2 = new RegExp('^([0-9 ]{3})((3[0-9]{3}-[0-9]{4})|(9[0-9]{4}-[0-9]{4}))$') ;//Validação de numeros com: DDD / espaço entre DDD e Número / Traço entre os números
         if (regex.test(num) == true ){
